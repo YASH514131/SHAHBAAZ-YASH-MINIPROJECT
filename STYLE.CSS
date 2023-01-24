@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+#home{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 153, 99)),url(MINIPROJECT.png);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.text{
+    text-align:center;
+    color:#fff;
+    padding-top:180px;
+}
+.text h1{
+    font-size: 130px
+}
+.text p{
+    font-size:20px;
+    font-style:italic;
+}
+.start {
+    margin:80px auto 0;
+}
+.start a{
+    width:150px;
+    text-decoration:none;
+    display:inline-block;
+    margin:30px;
+    padding:12px 0;
+    color:#fff;
+    border:.10px solid #fff;
+    transition: color 0.5s;
+}
+.start a:hover{
+    color:rgb(0, 0, 0)
+  
+
+}
