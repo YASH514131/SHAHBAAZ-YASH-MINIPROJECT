@@ -1,10 +1,11 @@
 *{
-    margin:0;
+    margin:0px;
     padding:0;
+
 
 }
 #home{
-    background:linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 153, 99)),url(MINIPROJECT.png);
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgb(5, 112, 75)),url(MINIPROJECT.png);
     background-size:cover;
     background-position:center;
     height:100vh;
@@ -23,6 +24,7 @@
 }
 .start {
     margin:80px auto 0;
+    
 }
 .start a{
     width:150px;
@@ -32,6 +34,7 @@
     padding:12px 0;
     color:#fff;
     border:.10px solid #fff;
+    border-radius: 25px;
     transition: color 0.5s;
 }
 .start a:hover{
