@@ -43,11 +43,11 @@
 
 }
 #home2{
-    background:linear-gradient(rgba(6, 95, 237, 0.5),rgba(138, 141, 4, 0.747))
+    background:linear-gradient(rgba(4, 48, 119, 0.907),rgba(138, 141, 4, 0.747))
 }
 .gif{
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
 }
 #tagline{
     text-align: center;
@@ -57,4 +57,42 @@
 }
 #know{
     text-align: center;
+    text-shadow: 1px 0.5px #000000;
 }
+#tag1{
+    text-align:center;
+    padding:20px;
+}
+#chordate a,#nonchordate a{
+    padding:2px;
+    color:#000000;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+#chordate,#nonchordate{
+    background: none;
+    border-radius: 10px;
+    padding:2px;
+    text-shadow: 1px 1px #000000;
+
+}
+#nonchordate a:hover{
+    color:#fff;
+
+}
+#chordate a:hover{
+    color: #fff;
+
+}
+#up,#down{
+    text-align: center;
+    margin:10px;
+
+}
+table{
+    width:53lh;
+    text-align:center;
+
+}
+
+
