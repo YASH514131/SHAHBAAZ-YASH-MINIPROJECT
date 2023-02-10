@@ -42,3 +42,19 @@
   
 
 }
+#home2{
+    background:linear-gradient(rgba(6, 95, 237, 0.5),rgba(138, 141, 4, 0.747))
+}
+.gif{
+    width: 400px;
+    height: 250px;
+}
+#tagline{
+    text-align: center;
+    font-style: oblique;
+    color: #000000;
+
+}
+#know{
+    text-align: center;
+}
