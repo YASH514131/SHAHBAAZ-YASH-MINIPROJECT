@@ -43,7 +43,7 @@
 
 }
 #home2{
-    background:linear-gradient(rgba(6, 58, 84, 0.747),rgba(5, 66, 164, 0.907))
+    background:linear-gradient(rgba(7, 171, 185, 0.747),rgba(5, 66, 164, 0.907))
 }
 .gif{
     width: 500px;
@@ -74,6 +74,7 @@
     border-radius: 10px;
     padding:2px;
     text-shadow: 1px 1px #000000;
+    border-color: #fff;
 
 }
 #nonchordate a:hover{

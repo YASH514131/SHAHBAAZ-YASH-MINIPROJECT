@@ -1,5 +1,5 @@
 function check(){
-    f2.t1.value=f1.s1.value;
+    f2.ani_name.value=f1.s1.value;
      }
   function collosol(){
       if(f2.t1.value=='CHORDATE')
