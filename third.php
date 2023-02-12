@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="script.js"> </script>
-    <link rel="stylesheet" href="Sty.css">
+    <link rel="stylesheet" href="STYLE.css">
     <title>Non-Chordate.in</title>
 </head>
 <body>
-  <section id="home3">
-  <table id="naruto">
+  <section>
+    <div id="sft">
+  <h3 id="head">Chordate Animal</h3>
+  <table id="naruto" >
     <form name="f1">
       <tr>
         <td>
-    <select onchange="check()" name="s1">
+    <select onchange="check()" name="s1" id="sor">
         <option  disabled selected hidden>Choose An Animal</option>
         <option>Herdmania</option>
         <option>Amphioxus</option>
@@ -31,18 +33,18 @@
               <form name="f2"method="GET">
                 <td>
                  <div>
-                  <p id="madara"><input type="text" name="ani_name" size="15" value="<?php if(isset($_GET['ani_name'])){echo $_GET['ani_name'];}   ?>"></p>
+                  <p id="madara"><input type="text"id="madara" name="ani_name" size="15" value="<?php if(isset($_GET['ani_name'])){echo $_GET['ani_name'];}   ?>"></p>
                   </div>
                     </td>
                               <td>
                               <div>
-                                <button type="submit">search</button>
+                                <button type="submit" id="sea">search</button>
                               </div>
                               </td>
                                 </tr>
                               </form>
     </table>
-      <hr>
+    </div>
             <?php
             $con=mysqli_connect("localhost","root","","project");
             if(isset($_GET["ani_name"]))
@@ -56,26 +58,26 @@
           <div id="cer">
            <table id="shift">
         <tr>
-           <td> <h3><label>Animal Name:</label><h3></td>
-            <td><input type="text" value="<?=$row['ani_name'];   ?>"></input></td>
+           <td> <h3 style="font-family: 'Lucida Sans';"><label>Animal Name:</label><h3></td>
+            <td><input type="text"class="fix"  value="<?=$row['ani_name'];   ?>"></input></td>
       </tr>
                                <tr> 
                                 
-                                  <td><h3><label for="">Phylum:</label></h3></td>
-                                  <td><input type="text" value="<?=$row['phylum'];   ?>"></input></td>
+                                  <td><h3 style="font-family: 'Lucida Sans';"><label for="">Phylum:</label></h3></td>
+                                  <td><input type="text"class="fix" value="<?=$row['phylum'];   ?>"></input></td>
                               
                                </tr>
                       <tr>
-                        <td><h3><label for="">Sub-Phylum:</label></h3></td>
-                        <td><input type="text" value="<?=$row['sub_phylum'];   ?>"></input></td>
+                        <td><h3 style="font-family: 'Lucida Sans';"><label for="">Sub-Phylum:</label></h3></td>
+                        <td><input type="text"class="fix" value="<?=$row['sub_phylum'];   ?>"></input></td>
                       </tr>
                                     <tr>
-                                      <td><h3><label for="">Class:</label></h3></td>
-                                     <td> <input type="text" value="<?=$row['class'];   ?>"></input></td>
+                                      <td><h3 style="font-family: 'Lucida Sans';"><label for="">Class:</label></h3></td>
+                                     <td> <input type="text" class="fix"value="<?=$row['class'];   ?>"></input></td>
                                     </tr>
                     <tr>
-                     <td><h3> <label for="">Features:</label></h3></td>
-                     <td> <input type="text" size="80"value="<?=$row['feature'];   ?>"></input></td>
+                     <td><h3 style="font-family: 'Lucida Sans';"> <label for="">Features:</label></h3></td>
+                     <td> <input type="text"class="fix" size="80"value="<?=$row['feature'];   ?>"></input></td>
               </tr>
      </table>
           </div>

@@ -24,6 +24,7 @@
 }
 .start {
     margin:80px auto 0;
+
     
 }
 .start a{
@@ -36,6 +37,7 @@
     border:.10px solid #fff;
     border-radius: 25px;
     transition: color 0.5s;
+
 }
 .start a:hover{
     color:rgb(0, 0, 0)
@@ -90,10 +92,43 @@
     margin:10px;
 
 }
-table{
+#fintage{
     width:53lh;
     text-align:center;
 
+}
+#sift{
+    background-color: rgba(51, 254, 0, 0.508);
+}
+#naruto{
+    margin:10px;
+}
+#shift{
+    margin:10px;
+}
+#head{
+    text-align: center;
+    padding:2px;
+    text-shadow: 0px 1px #000000;
+}
+#home3{
+    margin:20px;
+    font-family:'Lucida Sans' ;
+
+}
+#sea,#sor,#madara{
+    border-radius: 10px;
+    padding:2px;
+    text-shadow: 0px 1px #000000;
+    border-color: #fff;
+}
+.fix{
+    border-radius: 10px;
+    padding:2px;
+    text-shadow: 0px 1px #000000;
+}
+#sft{
+    background-color: rgba(199, 0, 254, 0.508);
 }
 
 
