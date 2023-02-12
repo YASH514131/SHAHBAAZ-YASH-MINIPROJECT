@@ -77,7 +77,7 @@
                                     </tr>
                     <tr>
                      <td><h3 style="font-family: 'Lucida Sans';"> <label for="">Features:</label></h3></td>
-                     <td> <input type="text"class="fix" size="80"value="<?=$row['feature'];   ?>"></input></td>
+                     <td> <input type="text"class="fix" size="38"value="<?=$row['feature'];   ?>"></input></td>
               </tr>
      </table>
           </div>
