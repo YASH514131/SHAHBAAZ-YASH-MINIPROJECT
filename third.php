@@ -93,6 +93,12 @@
               </td>
               <td> <input type="text" class="fix" size="38" value="<?= $row['feature'];   ?>"></input></td>
             </tr>
+            <tr>
+              <td>
+                
+              </td>
+              <td><img src="<?= $row['picture'];   ?>" style="width: 500px;height: 400px; border-radius: 10px;"></td>
+            </tr>
           </table>
         </div>
 
