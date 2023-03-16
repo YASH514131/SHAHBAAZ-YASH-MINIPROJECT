@@ -59,39 +59,39 @@
       foreach ($query_run as $row) {
     ?>
         <div id="cer">
-          <table id="shift">
+          <table id="shift" style="border-collapse: separate;border-spacing: 10px;">
             <tr>
               <td>
-                <h3 style="font-family: 'Lucida Sans';"><label>Animal Name:</label>
-                  <h3>
+                <h2 style="font-family: 'Lucida Sans';"><label>Animal Name:</label>
+                  <h2>
               </td>
-              <td><input type="text" class="fix" value="<?= $row['ani_name'];   ?>"></input></td>
+              <td><input type="text" class="fix" value="<?= $row['ani_name'];   ?>" style="font-size:large;"></input></td>
             </tr>
             <tr>
 
               <td>
-                <h3 style="font-family: 'Lucida Sans';"><label for="">Phylum:</label></h3>
+                <h2 style="font-family: 'Lucida Sans';"><label for="">Phylum:</label></h2>
               </td>
-              <td><input type="text" class="fix" value="<?= $row['phylum'];   ?>"></input></td>
+              <td><input type="text" class="fix" value="<?= $row['phylum'];   ?>" style="font-size:large;"></input></td>
 
             </tr>
             <tr>
               <td>
-                <h3 style="font-family: 'Lucida Sans';"><label for="">Sub-Phylum:</label></h3>
+                <h2 style="font-family: 'Lucida Sans';"><label for="">Sub-Phylum:</label></h2>
               </td>
-              <td><input type="text" class="fix" value="<?= $row['sub_phylum'];   ?>"></input></td>
+              <td><input type="text" class="fix" value="<?= $row['sub_phylum'];   ?>" style="font-size:large;"></input></td>
             </tr>
             <tr>
               <td>
-                <h3 style="font-family: 'Lucida Sans';"><label for="">Class:</label></h3>
+                <h2 style="font-family: 'Lucida Sans';"><label for="">Class:</label></h2>
               </td>
-              <td> <input type="text" class="fix" value="<?= $row['class'];   ?>"></input></td>
+              <td> <input type="text" class="fix" value="<?= $row['class'];   ?>" style="font-size:large;"></input></td>
             </tr>
             <tr>
               <td>
-                <h3 style="font-family: 'Lucida Sans';"> <label for="">Features:</label></h3>
+                <h2 style="font-family: 'Lucida Sans';"> <label for="">Features:</label></h2>
               </td>
-              <td> <input type="text" class="fix" size="38" value="<?= $row['feature'];   ?>"></input></td>
+              <td> <input type="text" class="fix" size="38" value="<?= $row['feature'];   ?>" style="font-size:large;"></input></td>
             </tr>
             <tr>
               <td>
