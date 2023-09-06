@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 #home{
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgb(5, 112, 75)),url(MINIPROJECT.png);
     background-size:cover;
